@@ -1,24 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
 h1 {
-    color:blue;
-    font-size: 24px;  
-    font-weight: bold;
-    font-style: italic;
+  color: blue;
+  font-size: 24px;
+  font-style: italic;
 }
 h2 {
-    font-size: 20px;
-    color:blue;
-    font-style: bold; 
+  font-size: 20px;
+  color: blue;
+  font-style: bold;
 }
 h3 {
-    font-size: 16px;
-    color:teal;
-    font-style: bold; 
+  font-size: 16px;
+  color: teal;
+  font-style: bold;
 }
 .class1 {
-    color:grey;
-    font-style: bold;
+  color: grey;
+  font-style: bold;
 }
 a {
-    color:purple;
-    text-decoration: none;
+  color: purple;
+  text-decoration: none;
+}
+header {
+  width: 100vw;
+  height: 33vh;
+  background-image: url("./img/custom_picture_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.class1 {
+  color: white;
+}
+img {
+  width: 100rem;
+}
+article {
+  border: 5px solid black;
+  border-radius: 7px;
+  border-left-width: 7px;
 }
