@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  font-family: "Goldman";
 }
 body {
   width: 100vw;
@@ -13,6 +14,7 @@ body {
 }
 body {
   font-family: "Goldman", cursive;
+  color: white;
 }
 
 nav {
@@ -47,4 +49,20 @@ h1 {
 }
 h2 {
   font-style: bold;
+}
+#rectangle {
+  width: 100%;
+  height: 60px;
+  background: #00a8c7;
+  position: fixed;
+  bottom: 0px;
+}
+section {
+  width: fit-content;
+  height: fit-content;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
